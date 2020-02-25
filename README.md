@@ -4,11 +4,20 @@
 **基于`kratos`构建的土拨鼠社区基础服务**
 ## Build & Run
 1. 命令行:
-    ```shell script
-    cd kratos-demo/cmd
-    go build
-    ./cmd -conf ../configs
-    ```
+    - Linux/Unix
+        ```shell script
+        cd kratos-demo/cmd
+        go build
+        ./cmd -conf ../configs
+        ```
+    - Win
+        ```shell script
+        cd kratos-demo/cmd
+        go build
+        cmd.exe -conf ../configs
+        ```        
+    
+   
 2. GoLand:
 
     在`Program arguments`中加入`-conf configs`
