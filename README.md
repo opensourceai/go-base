@@ -6,13 +6,13 @@
 1. 命令行:
     - Linux/Unix
         ```shell script
-        cd kratos-demo/cmd
+        cd go-base/cmd
         go build
         ./cmd -conf ../configs
         ```
     - Win
         ```shell script
-        cd kratos-demo/cmd
+        cd go-base/cmd
         go build
         cmd.exe -conf ../configs
         ```        
