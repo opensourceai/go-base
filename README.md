@@ -2,6 +2,10 @@
 
 ## 项目简介
 **基于`kratos`构建的土拨鼠社区基础服务**
+
+## Start
+1. Fork到自己账户下进行开发
+2. PR到主库master分支合并
 ## Build & Run
 1. 命令行:
     - Linux/Unix
