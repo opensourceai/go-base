@@ -1,4 +1,4 @@
-# Demo
+# Go Service
 
 ## 项目简介
 **基于`kratos`构建的土拨鼠社区基础服务**

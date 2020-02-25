@@ -3,6 +3,7 @@ package dao
 import (
 	"context"
 	"flag"
+	"fmt"
 	"os"
 	"testing"
 
@@ -18,6 +19,7 @@ func TestMain(m *testing.M) {
 	flag.Set("f", "../../test/docker-compose.yaml")
 	flag.Parse()
 	disableLich := os.Getenv("DISABLE_LICH") != ""
+	fmt.Print("disableLich", disableLich)
 	if !disableLich {
 		if err := lich.Setup(); err != nil {
 			panic(err)
